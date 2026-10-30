@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polyform · Trade beyond the ordinary</title>
+<meta name="description" content="Polyform is a live Solana board: the busiest tokens of the day, ranked and refreshed in one calm view.">
+<link rel="icon" type="image/svg+xml" sizes="32x32" href="favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('rm');</script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i id="progress"></i></div>
+
+<div class="top">
+  <header class="bar">
+    <a class="brand" href="#top" aria-label="Polyform, back to top">
+      <img src="assets/logo-64.png" srcset="assets/logo-64.png 1x, assets/logo-128.png 2x" width="30" height="30" alt="">
+      <span>POLYFORM</span>
+    </a>
+    <div class="bar-right">
+      <nav class="social" aria-label="Social">{{SOCIALS}}</nav>
+    </div>
+  </header>
+  {{CA_SLOT}}
+</div>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="mesh" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="grid"></i></div>
+    <div class="shapes" aria-hidden="true">
+      <i class="shape s1" data-depth="0.9"></i><i class="shape s2" data-depth="0.5"></i><i class="shape s3" data-depth="1.3"></i><i class="shape s4" data-depth="0.7"></i>
+    </div>
+    <div class="hero-in">
+      <span class="pill reveal"><i class="dot"></i>Solana network</span>
+      <h1 id="hero-title" class="wordmark reveal" aria-label="Polyform">POLYFORM</h1>
+      <p class="tagline reveal">Trade beyond<br>the ordinary.</p>
+      <p class="lede reveal">One calm board for a noisy chain. See what Solana is moving today, then decide with a clear head.</p>
+      <a class="cta reveal tap" href="#market">Open the board</a>
+      <div class="chips reveal">
+        <span class="chip"><span class="chip-k">Network</span> Solana</span>
+        {{CHART_CHIP}}
+      </div>
+    </div>
+  </section>
+
+  <section class="ticker" aria-label="Scrolling prices">
+    <div class="ticker-track" id="ticker"><span class="tick tick-skel"></span><span class="tick tick-skel"></span><span class="tick tick-skel"></span><span class="tick tick-skel"></span><span class="tick tick-skel"></span><span class="tick tick-skel"></span></div>
+  </section>
+
+  <section class="sec" id="market" aria-labelledby="market-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <h2 id="market-title">The live board</h2>
+          <p class="sub">Ten Solana tokens with the heaviest trading day, read from public order books and refreshed at a steady pace.</p>
+        </div>
+        <span class="status" id="status" data-state="loading"><i class="dot"></i><span id="status-text">Connecting</span></span>
+      </div>
+
+      <div class="tiles">
+        <div class="tile spot reveal"><span class="tile-k">Combined volume</span><b class="tile-v" id="t-vol">—</b></div>
+        <div class="tile spot reveal"><span class="tile-k">Pooled liquidity</span><b class="tile-v" id="t-liq">—</b></div>
+        <div class="tile spot reveal"><span class="tile-k">Names tracked</span><b class="tile-v" id="t-n">—</b></div>
+        <div class="tile spot reveal"><span class="tile-k">Median swing</span><b class="tile-v" id="t-med">—</b></div>
+      </div>
+
+      <div class="panel reveal">
+        <div class="tabs" role="tablist" aria-label="Sort the board">
+          <button class="tab tap is-on" role="tab" aria-selected="true" data-sort="volume">Volume</button>
+          <button class="tab tap" role="tab" aria-selected="false" data-sort="move">Momentum</button>
+          <button class="tab tap" role="tab" aria-selected="false" data-sort="liq">Depth</button>
+        </div>
+        <div class="err" id="err" hidden>The feed could not be reached. Retrying with a longer pause each time.</div>
+        <div class="rows-head" aria-hidden="true"><span>#</span><span>Token</span><span>Price</span><span>24h</span><span>Volume</span><span>Liquidity</span><span></span></div>
+        <div class="rows" id="rows" role="list" aria-live="polite" aria-busy="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="why" aria-labelledby="why-title">
+    <div class="wrap">
+      <div class="sec-head reveal"><div><h2 id="why-title">Built around the glance</h2><p class="sub">Everything on this page earns its place or stays out.</p></div></div>
+      <div class="cards">
+        <article class="card spot reveal"><span class="card-n">01</span><h3>One surface</h3><p>Price, swing, volume and pool depth share a single table, so there is nothing to juggle between tabs.</p></article>
+        <article class="card spot reveal"><span class="card-n">02</span><h3>Honest by default</h3><p>Whatever cannot be proven stays visibly empty. No filler figures and no invented links.</p></article>
+        <article class="card spot reveal"><span class="card-n">03</span><h3>Made for thumbs</h3><p>Each control clears a generous touch size, so the board works one-handed as well as at a desk.</p></article>
+        <article class="card spot reveal"><span class="card-n">04</span><h3>Quiet motion</h3><p>Springs and fades steer the eye. One system setting turns every bit of it off.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="register" aria-labelledby="flow-title">
+    <div class="wrap split">
+      <div class="steps">
+        <div class="sec-head reveal"><div><h2 id="flow-title">How a visit goes</h2><p class="sub">Three moves, no sign-up.</p></div></div>
+        <article class="step spot reveal"><span class="step-n">1</span><div><h3>Scan the board</h3><p>Rank by volume, momentum or depth with a single tap.</p></div></article>
+        <article class="step spot reveal"><span class="step-n">2</span><div><h3>Copy an address</h3><p>Each row carries its own copy control, ready for the explorer you prefer.</p></div></article>
+        <article class="step spot reveal"><span class="step-n">3</span><div><h3>Verify first</h3><p>Match any address against the project record before a single token moves.</p></div></article>
+      </div>
+      <aside class="record spot reveal" aria-labelledby="rec-title">
+        <h3 id="rec-title">Project record</h3>
+        <p class="sub">Confirmed items appear here; everything else stays marked pending.</p>
+        <ul class="recs">
+{{RECORDS}}
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec" id="path" aria-labelledby="path-title">
+    <div class="wrap">
+      <div class="sec-head reveal"><div><h2 id="path-title">Path ahead</h2><p class="sub">Four stages, each one built on the last.</p></div></div>
+      <ol class="path">
+        <li class="stage spot reveal"><span class="stage-n">Stage 1</span><h3>Foundation</h3><p>Launch the board, the project record and the public repository.</p></li>
+        <li class="stage spot reveal"><span class="stage-n">Stage 2</span><h3>Signals</h3><p>Add watchlists, alerts and saved views to the live table.</p></li>
+        <li class="stage spot reveal"><span class="stage-n">Stage 3</span><h3>Access</h3><p>Open the project to builders through documented feeds.</p></li>
+        <li class="stage spot reveal"><span class="stage-n">Stage 4</span><h3>Reach</h3><p>Grow the community around shared tools and open governance.</p></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="foot-brand"><img src="assets/logo-64.png" width="22" height="22" alt=""> Polyform</span>
+    <span class="foot-mid">polyform.cash</span>
+    <span class="foot-note">Figures come from a public feed and are shown for information only. Nothing here is financial advice.</span>
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Sections">
+  <a class="dock-a is-on" href="#top" aria-label="Home" data-sec="top"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg><i></i></a>
+  <a class="dock-a" href="#market" aria-label="Market" data-sec="market"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20v-7M12 20V5M19 20v-11"/></svg><i></i></a>
+  <a class="dock-a" href="#why" aria-label="Highlights" data-sec="why"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm9 16-4.35-4.35"/></svg><i></i></a>
+  <a class="dock-a" href="#register" aria-label="Project record" data-sec="register"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-7 9a7 7 0 0 1 14 0"/></svg><i></i></a>
+  <a class="dock-a" href="#path" aria-label="Path ahead" data-sec="path"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><i></i></a>
+</nav>
+
+<script type="application/json" id="pf-register">{{REGISTER_JSON}}</script>
+<script src="assets/app.js" defer></script>
+<script src="assets/market.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "chain",
+      "label": "Chain",
+      "state": "stated",
+      "value": "Solana",
+      "rpc": "https://solana-rpc.publicnode.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    },
+    {
+      "id": "domain",
+      "label": "Domain",
+      "state": "stated",
+      "value": "polyform.cash",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    },
+    {
+      "id": "market-source",
+      "label": "Market feed",
+      "state": "stated",
+      "value": "DexScreener",
+      "boostsUrl": "https://api.dexscreener.com/token-boosts/top/v1",
+      "pairsUrl": "https://api.dexscreener.com/tokens/v1/solana/",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    },
+    {
+      "id": "contract",
+      "label": "Contract",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-30"
+    }
+  ]
+}

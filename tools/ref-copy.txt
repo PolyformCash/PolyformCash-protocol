@@ -1,0 +1,392 @@
+Float · Launch on top of stock tokens
+FLOAT
+Docs
+Solana
+FL
+AT
+Keeping tokenized markets
+afloat.
+Coins on top of real stocks, with deep liquidity from the first trade.
+GET STARTED
+$FLOAT
+Bv1a7…2BMmr
+Chart
+Terms of Use
+Launch coins paired with tokenized stocks on Solana. Liquidity locked forever on Raydium.
+Analytics
+Where Float's trading fees go. Every total is recorded by the Float program on Solana and read live; dollar values use today's stock prices.
+Loading…
+Launch on stock tokens
+Anchor a token to a real stock. It trades on a bonding curve, then graduates to a Raydium pool locked forever.
+Pick your pairing asset
+Your token trades against it, and its fees are paid in it.
+All
+Crypto
+Leverage
+xStock
+Tessera
+Sunrise
+PreStock
+Basket
+SOL
+USDC
+USD Coin
+ZEC
+Zcash
+XMR
+Monero (wrapped)
+HYPE
+Hyperliquid
+PUMP
+Pump
+BONK
+Bonk
+WIF
+dogwifhat
+PENGU
+Pudgy Penguins
+TRUMP
+Official Trump
+JUP
+Jupiter
+RAY
+Raydium
+FARTCOIN
+Fartcoin
+WBTC
+Wrapped Bitcoin
+USDT
+Tether USD
+xSOL
+Hylo Leveraged SOL
+XBTC
+Hylo Leveraged BTC
+XHYPE
+Hylo Leveraged HYPE
+SPY
+SP500
+NVDA
+NVIDIA
+GOOGL
+Alphabet
+QQQ
+Nasdaq
+TSLA
+Tesla
+CRCL
+Circle
+COIN
+Coinbase
+MSTR
+MicroStrategy
+AMZN
+Amazon
+HOOD
+Robinhood
+SPCX
+SpaceX
+AAPL
+Apple
+GLD
+Gold
+META
+Meta
+PLTR
+Palantir
+MSFT
+Microsoft
+GME
+Gamestop
+tOpenAI
+0.2
+% transfer fee
+T-OpenAI
+STRC
+Strategy PP Variable
+MCD
+McDonald's
+BRK.B
+Berkshire Hathaway
+MU
+Micron Technology
+BOT
+RoboStrategy
+SKHY
+SK Hynix
+SNDK
+Sandisk
+KO
+Coca-Cola
+INTC
+Intel
+DRAM
+Roundhill Memory ETF
+ANTHROPIC
+Anthropic
+ANDURIL
+Anduril
+POLYMARKET
+Polymarket
+KALSHI
+Kalshi
+NEURALINK
+Neuralink
+OPENAI
+OpenAI
+TTWO
+Take-Two Interactive Software
+NBIS
+Nebius Group N.V.
+MRNA
+Moderna
+LLY
+Eli Lilly and Company
+MRVL
+Marvell Technology
+PSG
+Paris Saint-Germain
+PONS
+Pons
+VIDA
+Vida Global
+GPRO
+GoPro
+AMC
+AMC Entertainment
+TA
+TAO
+Bittensor
+FIGUREAI
+Figure AI
+ARB
+Arbitrum
+DOGE
+Dogecoin
+LIT
+Lighter
+NKE
+Nike
+PEAQ
+peaq
+SPHR
+Sphere Entertainment Co.
+DFDV
+HTZ
+Hertz Global Holdings, Inc Common Stock
+RDDT
+Reddit
+COST
+Costco Wholesale
+DELL
+Dell Technologies
+DJT
+Trump Media & Technology Group Corp. Common Stock
+IBM
+International Business Machines
+LMT
+Lockheed Martin
+QUBT
+Quantum Computing
+RBLX
+Roblox
+HIMS
+Hims & Hers Health
+LULU
+lululemon athletica inc.
+PFE
+Pfizer
+RIVN
+Rivian Automotive
+SHOP
+Shopify
+SNAP
+Snap
+UPS
+United Parcel Service
+PENG
+Penguin Solutions
+BA
+The Boeing Company
+AMBA
+Ambarella, Inc. Ordinary Shares
+BULL
+Webull Corporation
+JNJ
+Johnson & Johnson
+BABA
+Alibaba Group Holding
+GRND
+Grindr
+MGM
+MGM Resorts International
+DNUT
+Krispy Kreme, Inc. Common Stock
+WEN
+The Wendy's Company
+DKNG
+DraftKings
+FLWS
+1-800-FLOWERS.COM
+LINK
+Chainlink Token
+SCHH
+Schwab U.S. REIT ETF
+PTN
+Palatin Technologies, Inc.
+FLY
+Firefly Aerospace
+BROS
+Dutch Bros
+AMD
+Advanced Micro Devices
+CHIP
+USD.AI
+FWDI
+Forward Industries, Inc.
+LUV
+Southwest Airlines Co.
+IN
+INJ
+Injective
+WULF
+TeraWulf
+RUM
+RUM Group Inc.
+USO
+United States Oil Fund, LP
+CYPH
+Cypherpunk Technologies
+PEPE
+Pepe
+BB
+BlackBerry
+AVAX
+URA
+Global X Uranium ETF
+COPX
+Global X Copper Miners ETF
+IONQ
+IonQ
+APE
+ApeCoin
+ARM
+Arm Holdings
+CRWV
+CoreWeave
+EN
+ENA
+Ethena
+ZAMA
+Zama
+IREN
+SQQQ
+ProShares UltraPro Short QQQ
+cbLTC
+Coinbase Wrapped LTC
+EWY
+iShares MSCI South Korea ETF
+Cake
+PancakeSwap Token
+NOK
+Nokia Oyj
+cbADA
+Coinbase Wrapped ADA
+RKLB
+Rocket Lab
+NFLX
+Netflix
+BE
+Bloom Energy
+QNT
+Quant
+ONDO
+Ondo
+PUSA
+Powerus Corporation
+BLK
+BlackRock
+SHIB
+SHIBA INU
+EWZ
+iShares MSCI Brazil ETF
+CBRS
+Cerebras Systems
+VVV
+Venice Token
+RACE
+Ferrari
+WLD
+Worldcoin
+OURA
+Oura
+ASTER
+Aster
+XP
+XPL
+Plasma
+RIOT
+Riot Platforms
+CMG
+Chipotle Mexican Grill
+TSM
+Taiwan Semiconductor Manufacturing Company
+AVGO
+Broadcom
+FRONTIER
+AI Frontier
+UVXY
+ProShares Ultra VIX Short-Term Futures ETF
+MUSK4
+MUSK Index
+CHWY
+Chewy
+WLFI
+World Liberty Financial
+ABNB
+Airbnb
+SAMA4
+SAMA Index
+TRUMP3
+Trump Index
+Meta Platforms
+SAYLOR3
+Saylor Index
+Nvidia
+CAKE
+Cheesecake Factory (The)
+ICE
+Intercontinental Exchange
+Name your token
+This is how it shows up everywhere.
+Ticker
+Name
+Image
+Upload image (PNG, JPG, GIF, WebP)
+Social links (optional)
+Website
+Telegram
+Description (optional)
+/100
+Who gets the fees?
+Your share of trading fees, paid in the stock token.
+Me
+Other wallet
+Connect a wallet
+Connected wallet
+Trading fee
+What traders pay on every buy and sell.
+First buy (optional)
+Buy your own coin with SOL in the launch transaction, before anyone else can.
+REVIEW
+TICKER
+Your token
+Anchored to
+Launch market cap
+$20.00K
+Supply
+1,000,000,000
+Fees go to
+First buy
+Liquidity
+Locked forever
+CONNECT WALLET
